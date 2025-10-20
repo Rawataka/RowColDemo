@@ -61,8 +61,8 @@ fun TextCell(text: String, modifier: Modifier = Modifier) {
 fun MainScreen(modifier: Modifier = Modifier) {
     Row {
         Text(
-            text = "Large Text",
-            Modifier.alignByBaseline(),
+            text = "Large Text\n\nMore Text",
+            Modifier.alignBy(LastBaseline),
             fontSize = 40.sp,
             fontWeight = FontWeight.Bold
         )
@@ -74,5 +74,6 @@ fun MainScreen(modifier: Modifier = Modifier) {
         )
     }
 }
+
 
 
