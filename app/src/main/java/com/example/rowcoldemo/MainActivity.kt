@@ -65,6 +65,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
         TextCell("2")
         TextCell("3")
     }
+
 }
 
 
